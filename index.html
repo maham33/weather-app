@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../weather/style.css">
+    <title>weather-app</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="current-if">
+            <div class="date-container">
+                <div class="time" id="time">
+                    8:00 <span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    6 August, Monday
+                </div>
+                <div class="others" id="current-wi">
+
+                    <div class="wi">
+                        <p>Humidity</p>
+                        <p>75.3</p>
+                    </div>
+                    <div class="wi">
+                        <p>Pressure</p>
+                        <p>1000</p>
+                    </div>
+                    <div class="wi">
+                        <p>Wind Speed</p>
+                        <p>368</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="place-container">
+                <div class="time-zone" id="time-zone">Asia</div>
+            <div id="country" class="country">BD</div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="future-forecast">
+        <div class="today" id="today-temp">
+            <img src="https://openweathermap.org/img/wn/10d@2x.png"
+             alt="weather icon" class="w-icon">
+            <div class="other">
+            <div class="day">Monday</div>
+            <div class="temp">Morning - 28.7&#176; C</div>
+            <div class="temp">Night - 32.1&#176; C</div>
+            </div>
+        </div>
+        <div class="weather-fore" id="weather-fore">
+            <div class="weather-fore-item">
+            <div class="day">Tuesday</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="temp">Morning - 28.7&#176; C</div>
+            <div class="temp">Night - 32.1&#176; C</div>
+        </div>
+        
+        <div class="weather-fore-item">
+            <div class="day">Wednesday</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="temp">Morning - 28.7&#176; C</div>
+            <div class="temp">Night - 32.1&#176; C</div>
+        </div>
+        
+        <div class="weather-fore-item">
+            <div class="day">Thursday</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="temp">Morning - 28.7&#176; C</div>
+            <div class="temp">Night - 32.1&#176; C</div>
+        </div>
+        
+        <div class="weather-fore-item">
+            <div class="day">Friday</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="temp">Morning - 28.7&#176; C</div>
+            <div class="temp">Night - 32.1&#176; C</div>
+        </div>
+        
+        <div class="weather-fore-item">
+            <div class="day">Saturday</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="temp">Morning - 28.7&#176; C</div>
+            <div class="temp">Night - 32.1&#176; C</div>
+        </div>
+        
+        <div class="weather-fore-item">
+            <div class="day">Sunday</div>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="temp">Morning - 28.7&#176; C</div>
+            <div class="temp">Night - 32.1&#176; C</div>
+        </div>
+ 
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="../weather//script.js"></script>
+</body>
+</html>
